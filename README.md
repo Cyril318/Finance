@@ -18,7 +18,21 @@ Deep_Hedging/
 
 ## Setup
 
-1.  **Install Dependencies:**
+1.  **Create and Activate Virtual Environment:**
+    It is recommended to use a virtual environment to manage dependencies.
+
+    *   **Linux/macOS:**
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
+    *   **Windows:**
+        ```bash
+        python -m venv venv
+        venv\Scripts\activate
+        ```
+
+2.  **Install Dependencies:**
     Ensure you have Python 3.8+ installed. Install the required packages:
     ```bash
     pip install numpy pandas matplotlib scipy tensorflow
